@@ -47,7 +47,7 @@ function Footer({ onNavigate }) {
                   <Settings className="w-5 h-5" />
                 </button>
                 <a href="#" className="p-2 glass-button rounded-full hover:text-purple-600 transition-colors" title="View Source">
-                  <Code className="w-5 h-5" />
+                  <Code onClick={() => window.open('https://github.com/Isolatify/screenmirror', '_blank')} className="w-5 h-5" />
                 </a>
               </div>
             </div>
